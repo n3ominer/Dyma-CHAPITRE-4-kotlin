@@ -7,7 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/go_to_seccond_activity_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Go to second Activity"
+        app:layout_constraintBottom_toTopOf="@+id/center_text_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
     <TextView
+        android:id="@+id/center_text_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -15,5 +25,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/second_text_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Text 2"
+        app:layout_constraintTop_toBottomOf="@+id/center_text_textview"
+        app:layout_constraintStart_toStartOf="@+id/center_text_textview"
+        android:layout_marginTop="15dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
