@@ -1,10 +1,9 @@
-package com.example.myapp
+package com.example.myapp.C4_L3
 
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapp.R
 
 class SecondActivity: AppCompatActivity() {
 
